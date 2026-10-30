@@ -1,0 +1,7 @@
+# Submissions hold contact names and emails. Never commit them.
+employer_submissions.json
+*.json.bak
+.venv/
+__pycache__/
+.env
+.env.*

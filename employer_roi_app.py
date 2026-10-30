@@ -176,7 +176,7 @@ with tab1:
                                         placeholder="Any additional context or feedback...")
         
         # Submit button
-        submitted = st.form_submit_button("🚀 Submit Employer Data", use_container_width=True)
+        submitted = st.form_submit_button("🚀 Submit Employer Data", width="stretch")
         
         if submitted:
             # Validation
@@ -282,7 +282,7 @@ with tab2:
             })
         
         df = pd.DataFrame(display_data)
-        st.dataframe(df, use_container_width=True, hide_index=True)
+        st.dataframe(df, width="stretch", hide_index=True)
         
         # Download button
         st.download_button(
@@ -344,7 +344,7 @@ with tab3:
             }
             for s in submissions
         ])
-        st.dataframe(roi_data, use_container_width=True, hide_index=True)
+        st.dataframe(roi_data, width="stretch", hide_index=True)
         
     else:
         st.info("No data available for analytics yet. Submit employer data to see insights!")
