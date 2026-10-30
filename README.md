@@ -5,7 +5,7 @@ Management, Strategy 6) and shows a simple ROI estimate per submission and in ag
 
 ## Status
 
-**Prototype. Not production-ready.** Single file, local use only. Audited 2026-10-30
+**Prototype. Not production-ready.** Single file, local use only. Reviewed 2026-10-30
 (see "History" for what changed from the earlier README).
 
 | Feature | State |
@@ -62,7 +62,4 @@ aggregate view, a transactional database, input bounds, and a privacy notice.
   `use_container_width` replaced with `width="stretch"` (removed in newer Streamlit);
   dependencies bounded; `.gitignore` added.
 
-## Related
-
-System index: [bengerig/agentic-ops](https://github.com/bengerig/agentic-ops) `SYSTEM-MAP.md`.
-This repo is public; keep real submissions out of it.
+This repo is public. Keep real submissions out of it.
